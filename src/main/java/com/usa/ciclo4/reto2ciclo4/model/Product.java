@@ -19,5 +19,5 @@ public class Product {
     private double price;
     private int quantity;
     private String photography;
-    private boolean availability = true;
+    //private boolean availability = true;
 }
