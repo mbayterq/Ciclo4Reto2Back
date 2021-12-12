@@ -53,7 +53,6 @@ public class ProductService {
                 if (product.getPhotography() != null) {
                     dbProduct.get().setPhotography(product.getPhotography());
                 }
-                dbProduct.get().setAvailability(product.isAvailability());
                 productRepository.update(dbProduct.get());
                 return dbProduct.get();
             } else {
